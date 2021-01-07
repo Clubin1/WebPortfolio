@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif!important;
+}
+
+.landing{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0a192f;
+}
+
+.landing-info{
+    width:60%;
+
+}
+
+.landing-name{
+    color: rgb(82,209,183);
+}
+
+.landing-upper-name{
+    color:#ccd6f6;
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.landing-lower-name{
+    color:#8892b0;
+    font-size: 5rem;
+    font-weight: 700;
+
+}
+
+.landing-info{
+    color:#505c77;
+}
+
+.btn{
+    border: 1px solid rgb(82,209,183)!important;
+    color:rgb(82,209,183)!important;
+}
+
+.btn:hover{
+    background: rgba(82, 209, 184, 0.178);
+}
+
+.section-about{
+    height: 80vh;
+    background-color: #0a192f;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 50%;
+}
+
+
+.image{
+    height:20rem;
+    width: 20rem;
+    background: linear-gradient(
+        rgba(82,209,183, .5), 
+        rgba(82,209,183, .5)),url(/unnamed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+}
+
+.thing{
+    height: .09rem;
+    width: 20rem;
+    background-color: #1e2738;
+    position: relative;
+    top: 1.7rem;
+    left: 1rem;
+}
+
+.line{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.mini-title{
+    font-size: 1.5rem;
+    color: rgb(82,209,183);
+}
+
+.about-title{
+       color:#ccd6f6;
+       font-weight: 700;
+
+}
+
+.about-info{
+    color:#505c77;
+}
+
+.about-color{
+    color: rgb(82,209,183);
+}
+
+.section-work-history{
+    height: 120vh;
+    background-color: #0a192f;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.thing-2, .thing-3{
+    height: .09rem;
+    width: 20rem;
+    background-color: #1e2738;
+    position: relative;
+    top: 1.7rem;
+}
+
+.thing-2{
+    left: -2rem;
+}
+
+.thing-3{
+    right: -2rem;
+}
+
+.image-row{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ceasd{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-projects{
+    height: 150vh;
+    background-color: #0a192f;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    z-index: -100;
+}
+
+
+.project-image{
+    height:25rem;
+    width: 32rem;
+    background: linear-gradient(
+        rgba(82,209,183, .5), 
+        rgba(82,209,183, .5)),url(/unnamed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 12px 12px 12px 12px rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease!important;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row!important;
+}
+
+.info-col{
+    width: 30%;
+}
+
+.info-box{
+    background: #172a45;
+    color:#b3b9c7;
+    font-weight: 500;
+    box-shadow: 12px 12px 12px 12px rgba(0, 0, 0, 0.2);
+    position: relative;
+    left: -2rem;
+    padding: 1rem!important;
+    z-index: 10;
+    width: 37.5rem;
+}   
+
+.info-box-2{
+    background: #172a45;
+    color:#b3b9c7;
+    font-weight: 500;
+    box-shadow: 22px -12px 12px -12px rgba(0, 0, 0, 0.2);
+    position: relative;
+    padding: 1rem!important;
+    z-index: 10;
+    width: 37.5rem;
+}   
+.contact-section{
+    height: 80vh;
+    width: 100.1vw;
+    background-color: #0a192f;
+    position: relative;
+    top: 5rem;
+    position: relative;
+    left: -2rem;
+    z-index: -100;
+}
+.positioning{
+    position: relative;
+    top: 16rem;
+}
+
+.project-name{
+    color: #b2bbd6;
+    font-size: 2rem;
+}
+
+.project-sub{
+    color: rgb(82,209,183);
+    font-size: 1rem;
+}
+
+.project-tech{
+    color:#8892b0;
+    position: relative;
+    top: 1rem;
+    word-spacing: 1rem;
+}
+
+.image-move{
+    position: relative;
+    top: 5rem;
+}
+
+.nav-left{
+    position: absolute;
+    left: 2rem;
+    bottom:-1rem;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 2%;
+}
+
+.nav-left-line{
+    height: 7rem;
+    width: .1rem;
+    background: #606d86;
+    position: relative;
+    left: 1rem;
+}
+
+.nav-right{
+    position: absolute;
+    right: 1rem;
+    bottom:-1rem;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 2%;
+    
+}
+
+.nav-email{
+    transform: rotate(90deg);
+    position: relative;
+    top: -7rem;
+    color:#606d86;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+.nav-right-line{
+    height: 7rem;
+    width: .1rem;
+    background: #606d86;
+    position: relative;
+    right: -1rem;
+}
+
+.icon-1{
+    position: relative;
+    top: -4rem;
+}
+
+
+.icon-2{
+    position: relative;
+    top: 0rem;
+}
+.icon-3{
+    position: relative;
+    top: -5rem;
+}
+
+.icon-4{
+    position: relative;
+    top:-1rem;
+}
+.navbar{
+    background: #0a192f98!important;
+    -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.1);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    height: 5rem;
+}
+
+a.navbar-brand{
+    color:rgb(82,209,183)!important;
+}
+
+.mini-title-1{
+    font-size: .9rem;
+    color: rgb(82,209,183);
+}
+
+.login{
+    color:#606d86!important;
+    padding-right: 3rem;
+}
+
+
+.about-tech{
+    color: rgb(82,209,183);
+    font-weight: 700;
+    word-spacing: 1rem;
+}
+
+.project-icon{
+    position: relative;
+    top: 1rem;
+    transition: 200ms ease all;
+    border-radius: 50%;
+
+}
+.project-icon:hover{
+    background: #505c77b6;
+    border-radius: 50%;
+}
+
+.icon-1:hover, .icon-2:hover, .icon-3:hover, .icon-4:hover{
+    background: #2a3242;
+    border-radius: 50%;
+}
+.icon-1, .icon-2, .icon-3, .icon-4{
+    transition: 200ms ease all;
+    border-radius: 50%;
+}
+
+.email{
+    color: rgb(82,209,183);
+    font-weight: 700;
+}
+
+
+.login:hover{
+    color:rgb(82,209,183)!important;
+}
+
+a{
+    text-decoration: none!important;
+}
